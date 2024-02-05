@@ -1,0 +1,106 @@
+body{
+    background-color: #ffffff;
+}
+
+
+
+.producto{
+    font-size: 15px;
+    position: absolute;
+    top: 35px;
+    left: 255px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.producto:hover{
+  color: #ee8e20;
+}
+
+
+
+.tituloPrin{
+    padding-left: 20px;
+}
+
+#banner{
+    width: 100%;
+    height: 500px;
+    border: solid;
+    border-radius: 20px;
+    border-color: #000000;
+}
+
+.description{
+    background: #e7e6e6;
+    padding: 20px;
+    margin: 20px;
+    height: 300px;
+    border-radius: 20px;
+    border-color: #0c0c0c;
+    border: solid;
+}
+
+.tituloDes{
+    text-align: center;
+    align-content: center;
+    height: 50px;
+    padding: 20px;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 40px;
+    
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color: #000000;
+}
+
+.Diferenciales{
+    background: #e7e6e6;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    border: solid;
+    border-color: #000000;
+    
+}
+
+div h2{
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+
+.items{
+    font-size: 20px;
+    font-style: italic;
+    padding: 5px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+
+.imagenD{
+    margin-left: 20px;
+    width: 30%;
+    border-radius: 15px;
+}

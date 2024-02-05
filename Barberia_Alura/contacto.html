@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <title>contacto</title>
+    <link rel="stylesheet" href="style-productos.css">
+    <link rel="stylesheet" href="style-contacto.css">
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="imagenes/logo.png"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <form>
+
+            <label class="labs" for="Nombre">Nombre y Apellido</label>
+            <input  class="inps" type="text" id="Nombre" required>
+
+            <label class="labs" for="Correo">Correo Electrónico</label>
+            <input class="inps" type="email" id="Correo" placeholder="email@dominio.com" required>
+
+            <label class="labs" for="numero">Telefóno</label>
+            <input  class="inps" type="number" id="numero" placeholder="(XX) XXX XXXX" required>
+
+            <label class="labs" for="mensaje">Mensaje</label>
+            <textarea class="inps" id="mensaje" cols="30" rows="10"></textarea>
+
+            <fieldset class="contact">
+
+                <p class="labs">¿Cómo le gustaría ser contactado?</p>
+
+                <div class="medio">
+                    <input type="radio" name="contacto" id="email">
+                    <label class="medios" for="email">Email</label>
+                </div>
+
+                <div class="medio">
+                    <input type="radio" name="contacto" id="SMS">
+                    <label class="medios" for="SMS">Sms</label>
+                </div>
+                
+                
+                <div class="medio">
+                    <input type="radio" name="contacto" id="whatsapp" checked>
+                    <label class="medios" for="whatsapp">WhatsApp</label>
+                </div>
+                
+          
+            </fieldset>
+
+            <fieldset>
+
+                <label class="labs">¿En cuál horario le gustaría ser contactado?</label>
+
+                <select class="opciones">
+                    <option value="mañana">Mañana</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noche">Noche</option>
+                </select>
+
+            </fieldset>
+
+            <label class="novedad">¿Le gustaría recibir novedades de Barbería Alura?</label>
+            <input type="checkbox">
+
+            <input class="botonEnviar" type="submit" value="Enviar ">       
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Días</th>
+                    <th>Horarios</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td> 8h - 20h </td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td> 8h - 20h </td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td> 8h - 20h </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+
+    <footer>
+        <img src="imagenes/logo-blanco.png">
+        <p class="copyright">&copy Copyright Barbería Alura</p>
+    </footer>
+
+    
+</body>
+</html>
